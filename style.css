@@ -2,18 +2,21 @@
 .container{
     width: 80%;
     margin: auto;
+    border: 1px solid black;
 }
 
 header{
     background-image : url(IMG/baner0.png);
- 
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
     height: 300px;
+    
 }
 
 .right-content img{
     width: 200px;
     height: 200px;
-    border: 1px solid black;
+    border: 2px solid rgb(204, 204, 204);
     border-radius: 25px;
     object-fit: contain;
     overflow: hidden;
@@ -21,6 +24,20 @@ header{
 }
 .border-input{
     border-radius: 10px;
+    border: 1px solid rgb(94, 94, 94);
+    background-color: rgb(246, 246, 246);
+    height: 1.5em;
+}
+textarea{
+    margin: 0px 10px 0px 10px;
+    background-color: rgb(246, 246, 246);
+    width: 320px;
+    height: 100px;
+}
+#btn-container button{
+    border-radius: 25px;
+    margin: 5px 5px 5px 5px;
+    padding: 5px;
 }
 ul span{
     font-weight: 700;
@@ -28,6 +45,7 @@ ul span{
 .left h2{
     background-color: rgb(64, 206, 208);
     padding: 10px;
+    color: rgb(0, 11, 90);
 }
 header button{
     background-color: rgb(100, 125, 200);
@@ -37,14 +55,33 @@ header button{
     color: white;
     font-size: 20px;
 }
-
-footer{
-    background-color: rgb(42, 77, 117);
-}
 footer{
     display: flex;
     flex-direction: column;
     align-items: center;
     margin: auto;
     color: white;
+    margin-top: 10px;
+    background-color: rgb(42, 77, 117);
+}
+.nav button a{
+    color: white;
+    font-size: 19px;
+    text-decoration: none;
+}
+.nav button{
+    margin: 0px 5px 0px 5px;
+}
+.right{
+    background-color: rgb(205, 240, 242);
+     margin-left: 30px;
+     box-shadow: 10px 10px 10px rgb(139, 139, 139);
+     border-radius: 25px;
+     margin: 5px;
+     margin-top: 20px;
+     margin-left: 30px;
+}
+
+table{
+    margin: auto;
 }
